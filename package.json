@@ -53,7 +53,7 @@
         "node": ">=0.10.0"
     },
     "scripts": {
-        "postinstall": "export HOME=/var/lib/openshift/[instance-id]/app-root/runtime/repo; ./node_modules/bower/bin/bower install",
+        "postinstall": "./node_modules/bower/bin/bower install",
         "start": "node app.js"
     },
     "main": "app.js"
