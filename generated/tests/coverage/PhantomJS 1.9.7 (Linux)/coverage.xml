@@ -1,0 +1,68 @@
+<?xml version="1.0" ?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage lines-valid="17"  lines-covered="10"  line-rate="0.5882000000000001"  branches-valid="6"  branches-covered="2"  branch-rate="0.3333"  timestamp="1411134621225" complexity="0" version="0.1">
+<sources>
+	<source>/home/terios/WebstormProjects/openShift</source>
+</sources>
+<packages>
+	<package name="scripts"  line-rate="1"  branch-rate="0.5" >
+	<classes>
+		<class name="app.js"  filename="./app/scripts/app.js"  line-rate="1"  branch-rate="0.5" >
+		<methods>
+			<method name="(anonymous_1)"  hits="2"  signature="()V" >
+				<lines><line number="6"  hits="2" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="1"  hits="2"  branch="true"  condition-coverage="50% (1/2)" />
+			<line number="2"  hits="2"  branch="true"  condition-coverage="50% (1/2)" />
+			<line number="3"  hits="1"  branch="false" />
+			<line number="5"  hits="1"  branch="false" />
+			<line number="6"  hits="1"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+	<package name="scripts.controllers.header"  line-rate="0.4167"  branch-rate="0" >
+	<classes>
+		<class name="header.js"  filename="./app/scripts/controllers/header/header.js"  line-rate="0.4167"  branch-rate="0" >
+		<methods>
+			<method name="(anonymous_1)"  hits="1"  signature="()V" >
+				<lines><line number="6"  hits="1" /></lines>
+			</method>
+			<method name="(anonymous_2)"  hits="0"  signature="()V" >
+				<lines><line number="13"  hits="0" /></lines>
+			</method>
+			<method name="(anonymous_3)"  hits="0"  signature="()V" >
+				<lines><line number="15"  hits="0" /></lines>
+			</method>
+		</methods>
+		<lines>
+			<line number="1"  hits="1"  branch="false" />
+			<line number="4"  hits="1"  branch="false" />
+			<line number="7"  hits="1"  branch="false" />
+			<line number="12"  hits="1"  branch="false" />
+			<line number="13"  hits="1"  branch="false" />
+			<line number="14"  hits="0"  branch="false" />
+			<line number="15"  hits="0"  branch="false" />
+			<line number="16"  hits="0"  branch="true"  condition-coverage="0% (0/2)" />
+			<line number="17"  hits="0"  branch="false" />
+			<line number="19"  hits="0"  branch="false" />
+			<line number="21"  hits="0"  branch="false" />
+			<line number="22"  hits="0"  branch="false" />
+		</lines>
+		</class>
+	</classes>
+	</package>
+	<package name="scripts.controllers.home"  line-rate="1"  branch-rate="1" >
+	<classes>
+		<class name="home.js"  filename="./app/scripts/controllers/home/home.js"  line-rate="1"  branch-rate="1" >
+		<methods>
+		</methods>
+		<lines>
+		</lines>
+		</class>
+	</classes>
+	</package>
+</packages>
+</coverage>
