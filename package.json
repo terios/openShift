@@ -52,8 +52,8 @@
         "node": ">=0.10.0"
     },
     "scripts": {
-        "postinstall":"npm install",
-        "start": "grunt serve"
+        "postinstall":"npm install bonwer install",
+        "start": "node app.js"
     },
     "main": "app.js"
 }
