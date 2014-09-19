@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage lines-valid="17"  lines-covered="10"  line-rate="0.5882000000000001"  branches-valid="6"  branches-covered="2"  branch-rate="0.3333"  timestamp="1411134621225" complexity="0" version="0.1">
+<coverage lines-valid="17"  lines-covered="10"  line-rate="0.5882000000000001"  branches-valid="6"  branches-covered="2"  branch-rate="0.3333"  timestamp="1411143608264" complexity="0" version="0.1">
 <sources>
 	<source>/home/terios/WebstormProjects/openShift</source>
 </sources>
