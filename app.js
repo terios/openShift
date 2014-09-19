@@ -9,9 +9,9 @@ var express = require('express'),
 	config = require('./env/config.json');
 
 //setting mongodb url and connecting
-var mongo_uri = config.MONGO_URI;
-var mongo_db = config.MONGO_DB;
-var db = mongoose.connect('mongodb://' + mongo_uri + '/' + mongo_db);
+//var mongo_uri = config.MONGO_URI;
+//var mongo_db = config.MONGO_DB;
+//var db = mongoose.connect('mongodb://' + mongo_uri + '/' + mongo_db);
 
 //bodyparser to fetch params from requests
 var bodyParser = require('body-parser');
